@@ -1,0 +1,284 @@
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Russo One', sans-serif;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: red;
+    /* background: red; */
+}
+
+::selection {
+    color: gray;
+    /* background: red; */
+}
+
+/* Custom Scroll-Bar */
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(122, 122, 122);
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+/*************** Navbar  ***************/
+
+.navbar {
+    padding: 1rem 9rem;
+    /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.486)); */
+    background-color: rgb(19, 19, 19);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 4rem;
+}
+
+.nav-link {
+    color: white;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.nav-item {
+    padding: 0rem 1rem;
+}
+
+.brand {
+    width: 100%;
+    height: auto;
+}
+
+.brand img {
+    float: left;
+    margin: 0;
+    height: 4rem;
+}
+
+.brand-text {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+    color: white;
+}
+
+/************** home  **************/
+
+
+#home .home {
+    /* height: 100vh; */
+    min-height: 70vh;
+    width: 100vw;
+    /* align-items: center;
+    text-align: center; */
+    padding: 15rem 10rem;
+}
+
+.home .title h1 {
+    font-size: 5rem;
+}
+
+.red-text {
+    color: red;
+}
+
+.home .subtitle {
+    margin: 3rem;
+    margin-left: 0;
+}
+
+.home a {
+    display: inline-block;
+    /* background: crimson; */
+    color: red;
+    font-size: 1.2rem;
+    padding: .8em 1.5em;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: .6em;
+    border: .2rem solid red;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.home a:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn-icon {
+    margin-left: .7rem;
+}
+
+/************** about **************/
+
+#about {
+    background-color: rgb(25, 25, 25);
+}
+
+.about {
+    min-height: 70vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    padding: 10rem;
+}
+
+.about .title h1 {
+    font-size: 3rem;
+    margin: .5em;
+}
+
+.about .subtitle {
+    margin-bottom: 3.5em;
+}
+
+.about .subtitle h3 {
+    font-size: 1.4rem;
+    color: red;
+}
+
+.about .more-subtitle {
+    padding: 0 15rem;
+}
+
+.about p {
+    font-size: 1.3rem;
+}
+
+/************** skills **************/
+
+#skills {
+    min-height: 70vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    padding: 15rem 10rem;
+}
+
+
+
+
+
+
+
+
+
+/* responsive media query start */
+
+@media (max-width: 1180px) {
+    .about {
+        padding: 5rem;
+    }
+
+    .about .more-subtitle {
+        padding: 0 8rem;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .navbar {
+        padding: 1.5rem 5rem;
+    }
+
+    #home .home {
+        padding: 15rem 6rem;
+    }
+
+    .home .title h1 {
+        font-size: 4rem;
+    }
+
+    .home .subtitle {
+        margin: 2rem;
+        margin-left: 0;
+    }
+
+    .home a {
+        font-size: 1rem;
+        padding: .7em 1.4em;
+    }
+
+    .about {
+        padding: 3rem;
+    }
+
+    .about .title h1 {
+        font-size: 2.5rem;
+    }
+
+    .about .subtitle h3 {
+        font-size: 1.4rem;
+    }
+    
+    .about .more-subtitle {
+        padding: 0 5rem;
+    }
+    
+    .about p {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar {
+        padding: 1.5rem 4rem;
+    }
+
+    #home .home {
+        padding: 15rem 5rem;
+    }
+
+    .home .title h1 {
+        margin: 2rem;
+        margin-left: 0;
+        font-size: 3.5rem;
+    }
+
+    .home .subtitle {
+        margin: 3rem;
+        margin-left: 0;
+    }
+
+    .home a {
+        font-size: 1rem;
+        padding: .7em 1.4em;
+    }
+
+    .about {
+        padding: 0.5rem;
+    }
+
+    .about .more-subtitle {
+        padding: 0 8rem;
+    }
+}
