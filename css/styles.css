@@ -124,11 +124,8 @@ html {
 /* Home  */
 
 #home .home {
-    /* height: 100vh; */
     min-height: 70vh;
     width: 100vw;
-    /* align-items: center;
-    text-align: center; */
     padding: 13rem 9rem;
 }
 
@@ -184,6 +181,7 @@ html {
 
 #about {
     background-color: rgb(25, 25, 25);
+    display: table-row;
 }
 
 .about {
@@ -346,6 +344,10 @@ html {
 
     .about p {
         font-size: 1.1rem;
+    }
+
+    #skills{
+        padding: 5rem 2rem;
     }
 
 }
