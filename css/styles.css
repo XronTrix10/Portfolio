@@ -333,6 +333,52 @@ html {
     background-color: red;
 }
 
+/* Contact */
+
+#contact {
+    min-height: 70vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    padding: 8% 20%;   
+}
+
+.contact .title {
+    margin-bottom: 4%;
+}
+
+.mb-3{
+    margin: 5% 0;
+}
+
+.social {
+    padding: 8% 20%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social .social-link {
+    padding: 20px 8px;
+    font-size: 1.5rem;
+    color: wheat;
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    height: auto;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(25, 25, 25);
+    padding: 1em 0;
+    margin-bottom: 0;
+}
+
+footer p{
+    font-size: .8em;
+}
+
 
 /* responsive media query start */
 
