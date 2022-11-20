@@ -262,17 +262,23 @@ html {
 }
 
 .skill-set {
-    height: 25rem;
+    /* height: 25rem; */
     padding: 2rem;
 }
 
 .skill-set .card {
-    border: .2rem solid gray;
-    border-radius: .6em;
+    border: .3rem solid gray;
+    border-radius: 1em;
     height: 100%;
     background-color: rgb(19, 19, 19);
-    padding: 2rem;
+    padding: 1.2rem;
     color: white;
+}
+
+.skill-set .card .skill-list{
+    align-items: center;
+    text-align: center;
+    padding: 1em;
 }
 
 
