@@ -288,7 +288,7 @@ html {
     width: 100vw;
     align-items: center;
     text-align: center;
-    padding: 5rem 4rem;
+    padding: 3rem 4rem;
 }
 
 .certs .institute-img{
@@ -299,11 +299,38 @@ html {
 }
 
 .certs .institute-name{
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
 }
 
 .carousel-item {
     padding: 9% 15%;
+}
+
+.certs h1 {
+    font-size: 3rem;
+}
+
+.certs h2 {
+    font-size: 1.5rem;
+}
+
+.certs .cert-btn{
+    display: inline-block;
+    color: red;
+    font-size: .9rem;
+    padding: .6em .6em;
+    margin-top: 2rem;
+    font-weight: 400;
+    border-radius: .6em;
+    border: .2rem solid red;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.certs .cert-btn:hover {
+    color: white;
+    background-color: red;
 }
 
 
