@@ -103,15 +103,15 @@ html {
 #scroll-up {
     display: none;
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 20px;
+    right: 20px;
     z-index: 99;
     font-size: 2rem;
     border: .2rem solid red;
     background-color: rgb(19, 19, 19);
     color: red;
     cursor: pointer;
-    padding: .1rem .5rem;
+    padding: 3px 10px;
     border-radius: .6em;
 }
 
@@ -185,7 +185,7 @@ html {
 }
 
 .about {
-    min-height: 120vh;
+    min-height: 70vh;
     width: 100vw;
     align-items: center;
     text-align: center;
