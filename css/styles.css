@@ -5,6 +5,10 @@ body {
     font-family: 'Russo One', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ::-moz-selection {
     /* Code for Firefox */
     color: red;
@@ -47,7 +51,7 @@ body {
     background-color: rgb(19, 19, 19);
 }
 
-.navbar-after{
+.navbar-after {
     padding: 0 8rem;
     background-color: rgb(15, 15, 15);
     /* background: linear-gradient(to bottom, #000000 80%, rgb(71, 71, 71) 100%); */
@@ -96,7 +100,7 @@ body {
 
 /* Scroll-Bar Button  */
 
-#scroll-up{
+#scroll-up {
     display: none;
     position: fixed;
     bottom: 2rem;
@@ -121,7 +125,7 @@ body {
 
 #home .home {
     /* height: 100vh; */
-    height: 100vh;
+    min-height: 70vh;
     width: 100vw;
     /* align-items: center;
     text-align: center; */
@@ -132,7 +136,7 @@ body {
     font-size: 4.5rem;
 }
 
-.gray-text{
+.gray-text {
     color: gray;
 }
 
@@ -145,7 +149,7 @@ body {
     margin-left: 0;
 }
 
-.home h2{
+.home h2 {
     font-size: 1.8rem;
 }
 
@@ -212,7 +216,7 @@ body {
     font-size: 1.3rem;
 }
 
-.about a{
+.about a {
     display: inline-block;
     color: red;
     font-size: 1rem;
@@ -223,6 +227,10 @@ body {
     border: .2rem solid red;
     transition: all 0.3s ease;
     text-decoration: none;
+}
+
+.cv-btn {
+    margin-top: 1.8rem;
 }
 
 .about a:hover {
@@ -237,14 +245,29 @@ body {
     width: 100vw;
     align-items: center;
     text-align: center;
-    padding: 15rem 10rem;
+    padding: 5rem 9rem;
 }
 
+.home-skills .title{
+    margin-bottom: 2.5rem;
+}
 
+.skills{
+    padding: 0;
+    justify-content: space-between;
+}
 
+.skills h2{
+    font-size: 1.2rem;
+}
 
-
-
+.skill-set{
+    height: 25rem;
+    /* width: 25vw; */
+    border: .2rem solid gray;
+    border-radius: .6em;
+    padding: 2rem;
+}
 
 
 
@@ -267,7 +290,7 @@ body {
         padding-right: 5rem;
     }
 
-    .nav-link{
+    .nav-link {
         font-size: 1rem;
     }
 
@@ -304,11 +327,11 @@ body {
     .about .subtitle h3 {
         font-size: 1.4rem;
     }
-    
+
     .about .more-subtitle {
         padding: 0 2rem;
     }
-    
+
     .about p {
         font-size: 1.1rem;
     }
@@ -356,7 +379,7 @@ body {
         padding: 0 6rem;
     }
 
-    .about a{
+    .about a {
         font-size: 1rem;
         padding: .4em .8em;
     }
