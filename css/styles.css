@@ -81,9 +81,9 @@ body {
     text-decoration: none;
 }
 
-.navbar-toggler,
-.navbar-toggler-icon {
-    color: white;
+.navbar-toggler {
+    font-size: 1.8rem;
+    color: red;
 }
 
 /************** home  **************/
@@ -237,6 +237,14 @@ body {
 
     .navbar {
         padding: 1.5rem 5rem;
+    }
+
+    .nav-link{
+        font-size: 1rem;
+    }
+
+    .brand img {
+        height: 3rem;
     }
 
     #home .home {
