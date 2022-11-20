@@ -146,7 +146,6 @@ body {
 
 .home a {
     display: inline-block;
-    /* background: crimson; */
     color: red;
     font-size: 1rem;
     padding: .8em 1.5em;
@@ -201,6 +200,24 @@ body {
 
 .about p {
     font-size: 1.3rem;
+}
+
+.about a{
+    display: inline-block;
+    color: red;
+    font-size: 1rem;
+    padding: .8em 1.5em;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: .6em;
+    border: .2rem solid red;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.about a:hover {
+    background-color: red;
+    color: white;
 }
 
 /************** skills **************/
@@ -325,5 +342,10 @@ body {
 
     .about .more-subtitle {
         padding: 0 6rem;
+    }
+
+    .about a{
+        font-size: 1rem;
+        padding: .4em .8em;
     }
 }
