@@ -1,6 +1,7 @@
 // ================ Scroll-up Button ================
 
 const scrollBtn = document.getElementById('scroll-up');
+const navBar = document.getElementById('navbar')
 
 window.onscroll = function () {
     scrollFunction()
@@ -9,8 +10,12 @@ window.onscroll = function () {
 function scrollFunction() {
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
         scrollBtn.style.display = "block";
+        navBar.classList.remove('navbar-top');
+        navBar.classList.add('navbar-after');
     } else {
         scrollBtn.style.display = "none";
+        navBar.classList.remove('navbar-after');
+        navBar.classList.add('navbar-top');
     }
 }
 

@@ -41,10 +41,16 @@ body {
 
 /*************** Navbar  ***************/
 
-.navbar {
+.navbar-top {
     padding: .5rem 8rem;
     /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.486)); */
     background-color: rgb(19, 19, 19);
+}
+
+.navbar-after{
+    padding: 0 8rem;
+    background-color: rgb(15, 15, 15);
+    /* background: linear-gradient(to bottom, #000000 80%, rgb(71, 71, 71) 100%); */
 }
 
 .navbar-brand {
@@ -124,6 +130,10 @@ body {
 
 .home .title h1 {
     font-size: 4.5rem;
+}
+
+.gray-text{
+    color: gray;
 }
 
 .red-text {
@@ -253,7 +263,8 @@ body {
 @media (max-width: 1080px) {
 
     .navbar {
-        padding: 1.5rem 5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
     .nav-link{
@@ -308,7 +319,8 @@ body {
 @media (max-width: 800px) {
 
     .navbar {
-        padding: 1.5rem 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #home .home {
