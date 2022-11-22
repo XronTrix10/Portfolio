@@ -17,7 +17,7 @@ html {
 
 ::selection {
     color: gray;
-    /* background: red; */
+    /* background: black; */
 }
 
 /* Custom Scroll-Bar */
@@ -47,14 +47,12 @@ html {
 
 .navbar-top {
     padding: .5rem 8rem;
-    /* background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.486)); */
     background-color: rgb(19, 19, 19);
 }
 
 .navbar-after {
     padding: 0 8rem;
     background-color: rgb(15, 15, 15);
-    /* background: linear-gradient(to bottom, #000000 80%, rgb(71, 71, 71) 100%); */
 }
 
 .navbar-brand {
@@ -190,7 +188,6 @@ html {
     align-items: center;
     text-align: center;
     padding: 10rem;
-    /* border: 4px solid red; */
 }
 
 .about .title h1 {
@@ -201,7 +198,7 @@ html {
     margin-bottom: 3.5em;
 }
 
-.about .subtitle h3 {
+.subtitle h3 {
     font-size: 1.4rem;
     color: red;
 }
@@ -260,7 +257,6 @@ html {
 }
 
 .skill-set {
-    /* height: 25rem; */
     padding: 2rem;
 }
 
@@ -311,10 +307,6 @@ html {
     padding: 9% 15%;
 }
 
-/* .certs h1 {
-    font-size: 3rem;
-} */
-
 .certs h2 {
     font-size: 1.5rem;
 }
@@ -348,7 +340,11 @@ html {
 }
 
 .contact .title {
-    margin-bottom: 3rem;
+    margin-bottom: 1.4rem;
+}
+
+.contact .subtitle h3 {
+    margin-bottom: 2.5rem;
 }
 
 .form {
@@ -375,7 +371,7 @@ html {
 
 .social {
     padding: 8% 20%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
 }
 
